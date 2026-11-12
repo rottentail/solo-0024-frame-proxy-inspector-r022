@@ -1,0 +1,82 @@
+{
+  "fixture": "generated/exp2_shared_pts.lab",
+  "pts_by_ordinal": {
+    "0": 0,
+    "1": 1000,
+    "2": 2000,
+    "3": 3000,
+    "4": 4000,
+    "5": 5000,
+    "6": 6000,
+    "7": 7000,
+    "8": 8000,
+    "9": 8000,
+    "10": 10000,
+    "11": 11000,
+    "12": 12000,
+    "13": 13000,
+    "14": 15000,
+    "15": 16000,
+    "16": 17000,
+    "17": 18000,
+    "18": 19000,
+    "19": 20000,
+    "20": 21000,
+    "21": 22000,
+    "22": 23000,
+    "23": 24000
+  },
+  "repeated_pts": 8000,
+  "repeated_pts_ordinals": [
+    8,
+    9
+  ],
+  "repeated_pts_distinct_hashes": [
+    "e3aaf1860b0e6638",
+    "77b21b3d054eb3eb"
+  ],
+  "pts_deltas_unique": [
+    0,
+    1000,
+    2000
+  ],
+  "requested_display_ordinals": [
+    8,
+    9,
+    14,
+    20
+  ],
+  "rap_chain_exact": true,
+  "nearest_pts_mismatches": [
+    {
+      "requested_ord": 9,
+      "returned_ord": 8
+    }
+  ],
+  "strategies": {
+    "rap_chain": {
+      "cells": 4,
+      "batch_pictures_decoded": 7,
+      "batch_compressed_bytes_fed": 893,
+      "seeks": 3,
+      "worst_single_cell_pictures": 2,
+      "all_exact": true
+    },
+    "sequential_full": {
+      "cells": 4,
+      "batch_pictures_decoded": 24,
+      "batch_compressed_bytes_fed": 2974,
+      "seeks": 0,
+      "worst_single_cell_pictures": 24,
+      "all_exact": true
+    },
+    "nearest_pts": {
+      "cells": 4,
+      "batch_pictures_decoded": 8,
+      "batch_compressed_bytes_fed": 1021,
+      "seeks": 4,
+      "worst_single_cell_pictures": 2,
+      "all_exact": false
+    }
+  }
+}

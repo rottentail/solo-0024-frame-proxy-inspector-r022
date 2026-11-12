@@ -1,0 +1,142 @@
+{
+  "chain_bound": 6,
+  "fixtures": {
+    "reorder_closed_gop": {
+      "cells_per_scene": [
+        3,
+        9,
+        15,
+        21
+      ],
+      "scene_count": 4,
+      "admission": {
+        "admitted": true,
+        "reason": "bounded_rap_coverage",
+        "max_chain_length": 2
+      },
+      "sequential_full": {
+        "cells": 4,
+        "batch_pictures_decoded": 24,
+        "batch_compressed_bytes_fed": 2974,
+        "seeks": 0,
+        "worst_single_cell_pictures": 24,
+        "all_exact": true
+      },
+      "rap_chain": {
+        "cells": 4,
+        "batch_pictures_decoded": 8,
+        "batch_compressed_bytes_fed": 1039,
+        "seeks": 4,
+        "worst_single_cell_pictures": 2,
+        "all_exact": true
+      },
+      "head_replay": {
+        "cells": 4,
+        "batch_pictures_decoded": 56,
+        "batch_compressed_bytes_fed": 6933,
+        "seeks": 4,
+        "worst_single_cell_pictures": 23,
+        "all_exact": true
+      },
+      "nearest_pts": {
+        "cells": 4,
+        "batch_pictures_decoded": 8,
+        "batch_compressed_bytes_fed": 1039,
+        "seeks": 4,
+        "worst_single_cell_pictures": 2,
+        "all_exact": true
+      }
+    },
+    "shared_pts_vfr": {
+      "cells_per_scene": [
+        3,
+        9,
+        15,
+        21
+      ],
+      "scene_count": 4,
+      "admission": {
+        "admitted": true,
+        "reason": "bounded_rap_coverage",
+        "max_chain_length": 2
+      },
+      "sequential_full": {
+        "cells": 4,
+        "batch_pictures_decoded": 24,
+        "batch_compressed_bytes_fed": 2974,
+        "seeks": 0,
+        "worst_single_cell_pictures": 24,
+        "all_exact": true
+      },
+      "rap_chain": {
+        "cells": 4,
+        "batch_pictures_decoded": 8,
+        "batch_compressed_bytes_fed": 1039,
+        "seeks": 4,
+        "worst_single_cell_pictures": 2,
+        "all_exact": true
+      },
+      "head_replay": {
+        "cells": 4,
+        "batch_pictures_decoded": 56,
+        "batch_compressed_bytes_fed": 6933,
+        "seeks": 4,
+        "worst_single_cell_pictures": 23,
+        "all_exact": true
+      },
+      "nearest_pts": {
+        "cells": 4,
+        "batch_pictures_decoded": 8,
+        "batch_compressed_bytes_fed": 1034,
+        "seeks": 4,
+        "worst_single_cell_pictures": 2,
+        "all_exact": false
+      }
+    },
+    "head_only_long_p": {
+      "cells_per_scene": [
+        4,
+        12,
+        20
+      ],
+      "scene_count": 3,
+      "admission": {
+        "admitted": false,
+        "reason": "chain_length_exceeds_bound",
+        "max_chain_length": 24
+      },
+      "sequential_full": {
+        "cells": 3,
+        "batch_pictures_decoded": 24,
+        "batch_compressed_bytes_fed": 2856,
+        "seeks": 0,
+        "worst_single_cell_pictures": 24,
+        "all_exact": true
+      },
+      "rap_chain": {
+        "cells": 3,
+        "batch_pictures_decoded": 21,
+        "batch_compressed_bytes_fed": 2517,
+        "seeks": 1,
+        "worst_single_cell_pictures": 21,
+        "all_exact": true
+      },
+      "head_replay": {
+        "cells": 3,
+        "batch_pictures_decoded": 39,
+        "batch_compressed_bytes_fed": 4697,
+        "seeks": 3,
+        "worst_single_cell_pictures": 21,
+        "all_exact": true
+      },
+      "nearest_pts": {
+        "cells": 3,
+        "batch_pictures_decoded": 39,
+        "batch_compressed_bytes_fed": 4697,
+        "seeks": 3,
+        "worst_single_cell_pictures": 21,
+        "all_exact": true
+      }
+    }
+  }
+}

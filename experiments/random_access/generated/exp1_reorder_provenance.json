@@ -1,0 +1,114 @@
+{
+  "fixture": "generated/exp1_reordered.lab",
+  "picture_count": 24,
+  "gop": 6,
+  "b_count": 1,
+  "display_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "decode_order": [
+    0,
+    2,
+    1,
+    4,
+    3,
+    5,
+    6,
+    8,
+    7,
+    10,
+    9,
+    11,
+    12,
+    14,
+    13,
+    16,
+    15,
+    17,
+    18,
+    20,
+    19,
+    22,
+    21,
+    23
+  ],
+  "rap_ordinals": [
+    0,
+    6,
+    12,
+    18
+  ],
+  "requested_display_ordinals": [
+    1,
+    5,
+    8,
+    11,
+    17,
+    23
+  ],
+  "chain_for_ord_17": {
+    "packets_in_decode_order": [
+      12,
+      17
+    ],
+    "chain_length": 2
+  },
+  "strategies": {
+    "sequential_full": {
+      "cells": 6,
+      "batch_pictures_decoded": 24,
+      "batch_compressed_bytes_fed": 2974,
+      "seeks": 0,
+      "worst_single_cell_pictures": 24,
+      "all_exact": true
+    },
+    "rap_chain": {
+      "cells": 6,
+      "batch_pictures_decoded": 10,
+      "batch_compressed_bytes_fed": 1245,
+      "seeks": 4,
+      "worst_single_cell_pictures": 2,
+      "all_exact": true
+    },
+    "head_replay": {
+      "cells": 6,
+      "batch_pictures_decoded": 71,
+      "batch_compressed_bytes_fed": 8769,
+      "seeks": 6,
+      "worst_single_cell_pictures": 24,
+      "all_exact": true
+    },
+    "nearest_pts": {
+      "cells": 6,
+      "batch_pictures_decoded": 12,
+      "batch_compressed_bytes_fed": 1511,
+      "seeks": 6,
+      "worst_single_cell_pictures": 2,
+      "all_exact": true
+    }
+  },
+  "nearest_pts_exact_on_uniform_pts": true
+}
